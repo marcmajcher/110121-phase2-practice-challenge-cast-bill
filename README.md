@@ -33,11 +33,3 @@ As a user, I should be able to:
 All of the code to style the page has been written for you, meaning that you
 should be adding to the code rather than editing it; however, if your finished
 product has some styling issues, don't worry too much about it.
-
-## Bonus Deliverables
-
-As a user, I should be able to:
-
-- Persist the cast info to the database by POSTing or PATCHing to the `/bills` endpoint, and DELETEing from the `/bills/:id` endpoint.
-- Choose if I want to cast a Bill into my movie or just see thier data. Clicking on the card should instead display a show view (`billspecs`) for that actor, which should replace `BillCollection`. billspecs should have two buttons: one to go back to the list view and another to cast that actor. 
-- Sort actors by their health, salary, or rating. For this, create a new component, `SortBar`.
