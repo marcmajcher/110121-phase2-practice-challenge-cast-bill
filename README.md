@@ -18,8 +18,6 @@ the browser to verify that your backend is working before you proceed!
 These are the endpoints you might need:
 
 - GET: `/bills`
-- POST: `/bills`
-- DELETE: `/bills/:id`
 
 ## Core Deliverables
 
