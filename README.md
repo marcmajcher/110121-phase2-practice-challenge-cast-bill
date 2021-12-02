@@ -26,9 +26,9 @@ These are the endpoints you might need:
 As a user, I should be able to:
 
 - See profiles of all Bill Murrays rendered in `BillCollection`.
-- Add an individual Bill to the cast by clicking on it. The selected actor should render in the `YourCast` component. The instance of Bill Murray can be enlisted only **once**. The actor **does not** disappear from the `BillCollection`.
-- Remove an actor from the cast by clicking on it. The actor disappears from the `YourCast` component.
-- Discharge a Bill Murray from their agency forever, by clicking the blue button that says "FIRE". This removes the actor from both the `BillCollection` and `YourCast` components on the frontend.
+- Add an individual Bill to the cast by clicking on it. The selected actor should render in the `BillsCast` component. The instance of Bill Murray can be enlisted only **once**. The actor **does not** disappear from the `BillCollection`.
+- Remove an actor from the cast by clicking on it. The actor disappears from the `BillsCast` component.
+- Discharge a Bill Murray from their agency forever, by clicking the blue button that says "FIRE". This removes the actor from both the `BillCollection` and `BillsCast` components on the frontend.
 
 All of the code to style the page has been written for you, meaning that you
 should be adding to the code rather than editing it; however, if your finished
